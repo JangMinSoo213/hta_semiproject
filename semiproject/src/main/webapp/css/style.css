@@ -2,6 +2,14 @@ div#main_right {
     margin-left: 50px;
 }
 
+#main-header #navbar .container_left {
+	float: left;
+}
+
+#main-header #navbar .container_right {
+	float: right;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -95,9 +103,11 @@ input, textarea {
 #main-header #navbar {
 	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
 	background-color: #132287;
+	overflow: hidden;
 }
 
 #main-header #navbar ul {
+	display: inline-block;
 	padding: 11px 0;
 }
 
