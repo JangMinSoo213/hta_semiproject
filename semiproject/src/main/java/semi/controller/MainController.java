@@ -14,7 +14,6 @@ public class MainController extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setAttribute("header1", "header2.jsp");
 		req.setAttribute("footer", "footer.jsp");
-		req.getRequestDispatcher("main.jsp").forward(req, resp);	
-		System.out.println("d");
+		req.getRequestDispatcher("main.jsp").forward(req, resp);
 	}
 }
