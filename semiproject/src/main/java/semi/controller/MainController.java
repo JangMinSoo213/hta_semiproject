@@ -15,5 +15,6 @@ public class MainController extends HttpServlet {
 		req.setAttribute("header1", "header2.jsp");
 		req.setAttribute("footer", "footer.jsp");
 		req.getRequestDispatcher("main.jsp").forward(req, resp);	
+		System.out.println("d");
 	}
 }
