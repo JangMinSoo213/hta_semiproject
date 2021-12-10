@@ -1,16 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-333333 testaa
-bbb dafdafa
-내용 바꿈 6666666
-마지막 내용
-ㄷㄷㄷㄷㄷㄷㄷㄷ
-</body>
-</html>
+
+<jsp:include page="${requestScope.header1 }"></jsp:include>
+
+<main id="audio-main" role="main" style="text-align: center">
+	<textarea rows="10" cols="50" ></textarea>
+</main>
+
+<jsp:include page="${requestScope.footer }"></jsp:include>
