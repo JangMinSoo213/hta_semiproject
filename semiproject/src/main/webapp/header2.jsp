@@ -12,6 +12,8 @@
 <header id="main-header">
 		<div class="search_area">
 		
+		<img  src="image/logo1.png">
+		
 			<div class="search_wrap">
 				<input type="text">
 				<button type="button"></button>
@@ -19,8 +21,9 @@
 			
 			<div id="main_right">
 			<div id="account">
-				<p>네이버를 더 안전하고 편안하게 이용하세요</p>
+				<!-- <p>네이버를 더 안전하고 편안하게 이용하세요</p> -->
 				<a href="#">로그인</a>
+				<!-- 
 				<div class="account_sub">
 					<div class="left">
 						<span>아이디</span>
@@ -28,6 +31,7 @@
 					</div>
 					<span>회원가입</span>
 				</div>
+				 -->
 			</div>
 			</div>
 			
